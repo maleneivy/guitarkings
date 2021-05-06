@@ -1,3 +1,22 @@
+@font-face {
+    font-family: 'Boots And Spurs';
+    src: url("../fonts/BootsAndSpurs\ \(1\).ttf") format("truetype");
+}
+
+body {
+    font-family: "Roboto";
+}
+
+h1, 
+h2,
+.logo {
+    font-family: "Boots And Spurs", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.product-list h2{
+    font-family: "Roboto", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
 header, footer {
     background-color: #202020;
 }
@@ -9,6 +28,7 @@ header a, nav a {
 .cta {
     background-color: #bb0000;
     color: #fff;
+    font-size: 1.5em;
 }
 
 .reviews {
@@ -26,4 +46,3 @@ footer {
     text-align: center;
     color: #fff;
 }
-
