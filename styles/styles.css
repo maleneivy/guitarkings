@@ -23,6 +23,22 @@ header, footer {
 
 header a, nav a {
     color: #fff;
+    text-decoration: none;
+}
+nav ul {
+    padding: 0px;
+}
+
+nav li {
+    display: inline;
+
+}
+nav li:hover {
+    text-decoration: underline;
+}
+
+.current {
+    text-decoration: underline;
 }
 
 .cta {
