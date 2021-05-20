@@ -46,3 +46,28 @@ footer {
     text-align: center;
     color: #fff;
 }
+
+/* Home Page */
+
+.welcome {
+    background-image: url("../images/home-header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    min-height: 70vh;
+}
+.selling-points__images {
+    border-radius: 100px;
+}
+
+.review__images {
+    border-radius: 50%;
+}
+
+/* Contact Page*/
+
+input, select, textarea {
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+}
