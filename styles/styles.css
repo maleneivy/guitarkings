@@ -30,7 +30,8 @@ nav ul {
 }
 
 nav li {
-    display: inline;
+    display: inline-block; 
+    padding: 10px 10px 0 10px;
 
 }
 nav li:hover {
@@ -45,6 +46,16 @@ nav li:hover {
     background-color: #bb0000;
     color: #fff;
     font-size: 1.5em;
+    text-decoration: none;
+    font-family: "Roboto", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-variant: small-caps;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+
+.cta-header {
+    font-size: 24px;
 }
 
 .reviews {
