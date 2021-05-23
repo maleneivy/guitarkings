@@ -25,13 +25,17 @@ header a, nav a {
     color: #fff;
     text-decoration: none;
 }
+
+header a {
+    padding: 10px;
+}
+
 nav ul {
     padding: 0px;
 }
 
 nav li {
     display: inline-block; 
-    padding: 10px 10px 0 10px;
 
 }
 nav li:hover {
@@ -45,24 +49,23 @@ nav li:hover {
 .cta {
     background-color: #bb0000;
     color: #fff;
-    font-size: 1.5em;
+    font-size: 0.8em;
+    text-transform: uppercase;
     text-decoration: none;
-    font-family: "Roboto", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 14px;
-    font-variant: small-caps;
-    padding: 10px 20px;
+    padding: 8px 30px;
     border-radius: 6px;
 }
 
 .cta-header {
-    font-size: 24px;
+    font-size: 1em;
+    padding: 10px 80px;
 }
 
 .reviews {
     background-color: #e8e8e8;
 }
 
-.featured--products {
+.featured__products {
     background-color: #fbfbfb;
 }
 
