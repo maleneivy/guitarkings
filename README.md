@@ -1,2 +1,2 @@
 # guitarkings
-Just an assignment for lerning html and css.
+Just an assignment for learning html and css.
